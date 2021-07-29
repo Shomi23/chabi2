@@ -1,6 +1,4 @@
 import React from 'react';
-import Facebook from './facebook.svg'
-import Instagram from './instagram.svg'
 import InputBlock from '../../components/inputBlock/inputblock'
 import axios from 'axios'
 import './contact.css'
@@ -58,11 +56,7 @@ class Contact extends React.Component{
       <div className="container">
         {(submitted) ? <h2 id="msg_sent">Message Sent</h2> : ''}
         <div className="connect">
-          <h1>Let's Connect</h1>
-          <div className="social-media">
-            <a href="https://www.facebook.com/miljanaNikolicc" rel="noopener noreferrer"  target="_blank"><img alt="fb icon" src={Facebook} className="icon"/></a>
-            <a href="https://www.instagram.com/mmiljananikolicc/" rel="noopener noreferrer"  target="_blank"><img alt="ig icon" src={Instagram} className="icon"/></a>
-          </div>
+          <h1>CONTACT</h1>
         </div>
         <div className="form-block">
           <form className="form" action="https://formcarry.com/s/bSDXP50dneiP" method="POST" acceptCharset="UTF-8" encType="multipart/form-data">
@@ -80,7 +74,7 @@ class Contact extends React.Component{
                 placeholder="Type your message here..." 
                 wrap="off" 
                 autoComplete="off"
-                multilline                
+                multilline="true"            
               />
             </div>
 

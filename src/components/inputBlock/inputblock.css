@@ -1,5 +1,5 @@
 input[type="text"],input[type="email"], textarea[type="text"] {
-  background-color :#222;
+  background-color :#fafafa;
 }
 
 .input-block{
@@ -13,7 +13,7 @@ input[type="text"],input[type="email"], textarea[type="text"] {
   padding-top:20px;
   border: none;
   outline: none;
-  color: silver;
+  color: #222;
   padding-bottom: 5px;
 }
 
@@ -22,7 +22,7 @@ input[type="text"],input[type="email"], textarea[type="text"] {
   bottom: 0;
   left: 0;
   pointer-events: none;
-  border-bottom: 1px solid silver;
+  border-bottom: 1px solid #222;
   width: 100%;
   height: 100%;
 }
@@ -32,7 +32,7 @@ input[type="text"],input[type="email"], textarea[type="text"] {
   position: absolute;
   bottom: -1px;
   left: 0;
-  border-bottom: 2px solid #fafafa;
+  border-bottom: 2px solid #000;
   width: 100%;
   height: 100%;
   transform: translateX(-100%);
@@ -44,20 +44,20 @@ input[type="text"],input[type="email"], textarea[type="text"] {
   bottom: 5px;
   left: 0;
   transition: all 0.3s ease;
-  color: silver;
+  color: #222;
 }
 
 .form input:focus + .form-label .label-content,
 .form input:valid + .form-label .label-content {
   transform: translateY(-120%);
   font-size: 13px;
-  color: #fafafa;
+  color: #000;
 }
 
 .form input[value]:not([value=""]) + .form-label .label-content{
   transform: translateY(-120%);
   font-size: 13px;
-  color: #fafafa;
+  color: #000;
 }
 
 

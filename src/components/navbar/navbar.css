@@ -6,8 +6,8 @@
 
 .home_link{
   border-radius: 5px;
-  padding: 5px 10px;
-  background-color: white;
+  padding: 0px 10px;
+  color: #196B5D;
 }
 
 
@@ -20,6 +20,8 @@
   justify-content: space-between;
   padding: 0 10%;
   align-items: center;
+  height: 80px;
+  background-color: #222;
 }
 
 .nav-block a{
@@ -28,15 +30,14 @@
   font-size: 1.2rem;
   margin-top: 10px;
   padding: 5px 10px;
+  color: #fff;
 }
 
 .nav-block a{
   text-decoration: none;
   display: inline-block;
-  color: black;
   font-weight:bold;
   cursor: pointer;
-  background-color: white;
   opacity: .8;
   border-radius: 5px;
 }
@@ -47,30 +48,9 @@
   text-decoration: none;
 }
 
-.nav-block a::after {
-  content: '';
-  display: block;
-  width: 0;
-  height: 2px;
-  background: #000;
-  transition: width .3s;
-}
-
-.nav-block a:hover::after {
-  width: 100%;
-  transition: width .3s;
-}
-
 .nav-block a.active{
   position: relative;
-}
-
-.nav-block a.active::after{
-  content: '';
-  display: block;
-  width: 100%;
-  height: 2px;
-  background: #000;
+  background-color: #196B5D;
 }
 
 @media screen and (max-width: 450px) {
