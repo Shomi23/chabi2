@@ -6,8 +6,10 @@
 
 .home_link{
   border-radius: 5px;
-  padding: 0px 10px;
-  color: #196B5D;
+  color: #fafafa;
+  font-size: 2rem;
+  text-decoration: none;
+  border-bottom: 5px solid #fafafa;
 }
 
 
@@ -54,15 +56,14 @@
 }
 
 @media screen and (max-width: 450px) {
-  .nav-wrapper a{
-    font-size: .62rem;
-    margin: 10px 10px 0 0;
-    padding: 3px 5px 2px;
+  .nav-wrapper {
+    padding: 0;
+    padding-left: 10px;
   }
 
-  .nav-wrapper{
-    padding: 0 1.5%;
+  .home_link{
+    margin: 0;
+    font-size: 1.5rem;
   }
-
 
 }

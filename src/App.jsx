@@ -72,7 +72,7 @@ function App() {
         </div>
         </div>
       </div>
-      <div className="kontakt-wrapper">
+      <div className="story-wrapper">
         <div className="info-div">
 
         </div>
@@ -80,6 +80,7 @@ function App() {
           <img src={img1} alt="" />
         </div>
       </div>
+      <p className="copyright">© 2020 TIMOK019</p>
     </div>
   );
 
