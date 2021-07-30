@@ -17,6 +17,15 @@ function App() {
     <div className="App">
       <Navbar />
       <Home />
+      <div className="story-wrapper">
+        <div className="info-div">
+          <h2 id="storyh2">About us</h2>
+          <p id="storyp">Limitless kings estimate January 10  2018, Local,  OTR, dedicated transport, Truck repair,road assistance service.We are exellence on the road. WE ARE NOT JUST ROLLING WHEELS, WE ARE THE HIGHWAY!</p>
+        </div>
+        <div className="story-img">
+          <img src={img1} alt="" />
+        </div>
+      </div>
       <div className="kontakt-wrapper">
         <div className="kontakt-div">
           <Contact />
@@ -53,14 +62,14 @@ function App() {
               </div>
 
 
-              {/* <div className="contact-block-item">
+              <div className="contact-block-item">
                 <div className="icon">
                   <FontAwesomeIcon icon={faPhone} className="iconfa" size="3x" />
                 </div>
                 <div>
-                  <h2>+12028309765</h2>
+                  <h2>+3129199102</h2>
                 </div>
-              </div> */}
+              </div>
 
               <div className="contact-block-item">
                 <div className="icon">
@@ -73,16 +82,8 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="story-wrapper">
-        <div className="info-div">
-          <h2 id="storyh2">About us</h2>
-          <p id="storyp">Limitless kings estimate January 10  2018, Local,  OTR, dedicated transport, Truck repair,road assistance service.We are exellence on the road. WE ARE NOT JUST ROLLING WHEELS, WE ARE THE HIGHWAY!</p>
-        </div>
-        <div className="story-img">
-          <img src={img1} alt="" />
-        </div>
-      </div>
-      <p className="copyright">© 2021 LIMITLESS KINGS</p>
+      
+      <p className="copyright">© 2020 LIMITLESS KINGS</p>
     </div>
   );
 
