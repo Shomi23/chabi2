@@ -110,4 +110,9 @@ textarea[type="text"]:focus{
     font-size: .75rem;
   }
 
+  textarea[type="text"]{
+    height: auto;
+  
+  }
+
 }

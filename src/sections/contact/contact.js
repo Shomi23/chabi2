@@ -18,7 +18,7 @@ class Contact extends React.Component{
   handleForm = e => {
 
     axios.post(
-      "https://formcarry.com/s/FZRZQqNhvjc",
+      "",
       this.state.formData,
       {headers: {"Accept": "application/json"}}
       )

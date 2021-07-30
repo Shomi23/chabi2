@@ -39,9 +39,18 @@
 .info-div{
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 60%;
     margin: auto;
     z-index: 2;
+}
+
+#storyh2{
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+}
+
+#storyp{
+    font-size: 1.2rem;
 }
 
 .contact-section{
@@ -91,7 +100,15 @@
         grid-template-columns:  1fr;
     }
 
+    .story-wrapper{
+        grid-template-columns: 1fr;
+    }
+
     .info-wrapper {
+        padding: 30px 0;
+    }
+
+    .info-div{
         padding: 30px 0;
     }
 }
@@ -101,7 +118,5 @@
     .contact-block-item h2{
         font-size: 1rem;
     }
-    .story-wrapper{
-        grid-template-columns: 1fr;
-    }
+    
 }
