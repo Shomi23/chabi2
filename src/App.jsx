@@ -67,7 +67,7 @@ function App() {
                   <FontAwesomeIcon icon={faPhone} className="iconfa" size="3x" />
                 </div>
                 <div>
-                  <h2>+3129199102</h2>
+                  <h2>+13129199102</h2>
                 </div>
               </div>
 
